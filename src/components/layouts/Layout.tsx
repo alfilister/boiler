@@ -16,7 +16,7 @@ const MainLayout: NextPage<Props> = ({ title = 'Boiler', children }) => {
 				<meta name="description" content="Boiler" />
 				<meta name="keywords" content="Boiler, Boiler Manager" />
 			</Head>
-			<main className="min-w-[374px]">{children}</main>
+			<main className="min-w-[360px]">{children}</main>
 		</>
 	)
 }

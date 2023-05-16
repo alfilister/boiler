@@ -1,41 +1,47 @@
 {
-  "name": "boiler",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "13.4.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@reduxjs/toolkit": "^1.9.5",
-    "axios": "^1.4.0",
-    "crypto-js": "^4.1.1",
-    "flowbite": "^1.6.5",
-    "flowbite-react": "^0.4.4",
-    "react-redux": "^8.0.5"
-  },
-    "devDependencies": {
-    "@testing-library/react": "^14.0.0",
-    "jest": "^29.5.0",
-    "@types/node": "18.16.1",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.1",
-    "@types/uuid": "^9.0.1",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.1",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "postcss": "8.4.23",
-    "prettier": "^2.8.8",
-    "prettier-plugin-tailwindcss": "^0.2.7",
-    "standard": "^17.0.0",
-    "tailwindcss": "3.3.2",
-    "typescript": "5.0.4"
-  }
+	"name": "boiler",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"coverage": "jest --collect-coverage"
+	},
+	"dependencies": {
+		"@reduxjs/toolkit": "^1.9.5",
+		"axios": "^1.4.0",
+		"crypto-js": "^4.1.1",
+		"flowbite": "^1.6.5",
+		"flowbite-react": "^0.4.4",
+		"next": "13.4.2",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-redux": "^8.0.5"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^14.0.0",
+		"@testing-library/user-event": "^14.4.3",
+		"next-router-mock": "^0.9.3",
+		"@types/node": "18.16.1",
+		"@types/react": "18.2.0",
+		"@types/react-dom": "18.2.1",
+		"@types/uuid": "^9.0.1",
+		"autoprefixer": "10.4.14",
+		"eslint": "8.39.0",
+		"eslint-config-next": "13.3.1",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"history": "^5.3.0",
+		"jest": "^29.5.0",
+		"jest-environment-jsdom": "^29.5.0",
+		"postcss": "8.4.23",
+		"prettier": "^2.8.8",
+		"prettier-plugin-tailwindcss": "^0.2.7",
+		"standard": "^17.0.0",
+		"tailwindcss": "3.3.2",
+		"typescript": "5.0.4"
+	}
 }

@@ -6,7 +6,7 @@ export default function SamplePage() {
 	return (
 		<>
 			<div>
-				<h6 className="text-slate-500">Sample page ome</h6>
+				<h6 className="bg-blue-200 text-slate-500">Sample page ome</h6>
 				<Link href={'/'} className="btn-main">
 					Return to home
 				</Link>
