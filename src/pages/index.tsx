@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import { useAppDispatch, useAppSelector } from '@/redux/hooks'
 import { MouseEvent } from 'react'
 import { setName } from '@/redux/slices/demitoSlice'
-import MainLayout from '@/components/layouts/Layout'
+import MainLayout from '@/ui/layouts/Layout'
 
 const inter = Inter({ subsets: ['latin'] })
 

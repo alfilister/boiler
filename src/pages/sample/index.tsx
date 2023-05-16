@@ -1,4 +1,4 @@
-import MainLayout from '@/components/layouts/Layout'
+import MainLayout from '@/ui/layouts/Layout'
 import Link from 'next/link'
 import { ReactElement } from 'react'
 
