@@ -11,6 +11,20 @@ export default function SamplePage() {
 					Return to home
 				</Link>
 			</div>
+			<div className="flex flex-col">
+				<label htmlFor="appt">Choose a time for your meeting:</label>
+
+				<input
+					className="w-fit rounded-full px-4 text-black"
+					type="time"
+					id="appt"
+					name="appt"
+					min="09:00"
+					max="18:00"
+					required
+				/>
+				<small>Office hours are 9am to 6pm</small>
+			</div>
 		</>
 	)
 }

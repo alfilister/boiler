@@ -4,6 +4,7 @@
 	"rules": {
 		"prettier/prettier": "warn",
 		"camelcase": 0,
-		"no-case-declarations": 0
+		"no-case-declarations": 0,
+		"max-lines": ["error", { "max": 40 }]
 	}
 }
